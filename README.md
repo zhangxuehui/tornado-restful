@@ -1,7 +1,6 @@
 # tornado-restful
-
->a simple and extendable way for restful API service on Tornado
->the code support the requests as below for example:
+a simple and extendable way for restful API service on Tornado.  <br />
+the code support the requests as below for example:
 
 * POST: /item/_id/UPDATE    [UPDATE]
 * POST: /item/_id/DELETE    [DELETE]
@@ -11,5 +10,5 @@
 * GET:  /item/_id/resources [FIND_RESOURCE]
 * GET:  /item/_id           [FIND_ONE]
 
->as some of browsers don't support PUT & DELETE well, we use POST for the both.
+as some of browsers don't support PUT & DELETE well, we use POST for the both.
 
